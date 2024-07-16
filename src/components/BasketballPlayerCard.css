@@ -1,0 +1,49 @@
+.player-card{
+  background-color: #ffda37;
+  border: 1px solid #666;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+.player-card{
+    max-width: 300px; 
+}
+.player-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.player-content {
+    padding: 20px;
+  }
+  
+  .player-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2c2c;
+  }
+  .player-position {
+    font-size: 18px;
+    color: #2c2c2c;
+  }
+  
+.player-stats {
+    font-size: 16px;
+    color: #666;
+  }
+  .player-card:hover {
+    box-shadow: 0 0 20px rgba(129, 131, 0, 0.7);
+    transform: translateY(-5px);
+  } 
+  @media (max-width: 768px) {
+    .player-card {
+       max-width: 200px;
+     }
+   }
+   
+   @media (max-width: 480px) {
+    .player-card {
+       max-width: 150px;
+     }
+   } 
